@@ -6,11 +6,11 @@ print("Jim-Shops v1.5 - Shop Script by Jimathy")
 
 Config = {
 	Debug = false, -- Enable to add debug boxes and message.
-	img = "qb-inventory/html/images/", -- Set this to your inventory
+	img = "aj-inventory/html/images/", -- Set this to your inventory
 	Peds = true, -- Set to true if you want Shops to have Peds
 	Limit = false, -- Enable this to add Stash features, This adds limits to items and gets refilled at each restart
 	MaxSlots = 41, -- Set this to your player inventory slot count, this is default "41"
-	BlackMarket = false, -- enable to add blackmarket locations (defined at the bottom of this file)
+	BlackMarket = true, -- enable to add blackmarket locations (defined at the bottom of this file)
 	Measurement = "kg", -- Custom Weight measurement
 	JimMenu = false, -- Enable this if you are using my customised qb-menu resource
 }
@@ -80,16 +80,27 @@ Config.Products = {
     ["casino"] = {
         [1] = { name = 'casinochips', price = 100, amount = 999999 },
     },
-	["electronics"] = {
+    ["electronics"] = {
         [1] = { name = "phone", price = 850, amount = 50 },
         [2] = { name = "radio", price = 250, amount = 50, },
         [3] = { name = "screwdriverset", price = 350, amount = 50, },
         [4] = { name = "binoculars", price = 50, amount = 50, },
         [5] = { name = "fitbit", price = 400, amount = 150, },
-	},	
-	["blackmarket"] = {
-        [1] = { name = "radioscanner", price = 850, amount = 5 },
-	},
+    },	
+    ["blackmarket"] = {
+        [1] = { name = "weapon_dagger", price = 2000, amount = 20 },
+	[2] = { name = "weapon_pumpshotgun_mk2", price = 18000, amount = 5 },
+	[3] = { name = "weapon_smg_mk2", price = 25000, amount = 5 },
+	[4] = { name = "weapon_carbinerifle_mk2", price = 28000, amount = 5 },
+	[5] = { name = "weapon_heavysniper_mk2", price = 40000, amount = 5 },
+	[6] = { name = "weapon_gusenberg", price = 48000, amount = 5 },
+	[7] = { name = "weapon_combatmg_mk2", price = 56000, amount = 5 },
+	[8] = { name = "shotgun_ammo", price = 250, amount = 25 },
+	[9] = { name = "rifle_ammo", price = 250, amount = 25 },
+	[10] = { name = "snp_ammo", price = 250, amount = 25 },
+	[11] = { name = "mg_ammo", price = 250, amount = 25 },
+	[12] = { name = "radioscanner", price = 850, amount = 5 },
+    },
 }
 
 Config.Locations = {
@@ -415,11 +426,11 @@ Config.Locations = {
 			[7] = `MP_M_Meth_01`,
 		},
 		["coords"] = { 
-			vector4(776.24, 4184.08, 41.8, 92.12),
-			vector4(2482.51, 3722.28, 43.92, 39.98),
-			vector4(462.67, -1789.16, 28.59, 317.53),
-			vector4(-115.15, 6369.07, 31.52, 232.08),
-			vector4(752.52, -3198.33, 6.07, 301.72)
+			vector4(2461.33, 1574.54, 33.11, 331.25),
+			vector4(66.72, 3692.77, 39.75, 9.69),
+			vector4(-436.21, 6154.0, 31.48, 357.37),
+			vector4(295.61, -932.5, 56.46, 89.69),
+			vector4(-1837.95, 436.28, 126.11, 122.16),
 			},
 		["products"] = Config.Products["blackmarket"],
 		["hideblip"] = true,

@@ -99,7 +99,7 @@ Config.Products = {
 	[9] = { name = "rifle_ammo", price = 250, amount = 25 },
 	[10] = { name = "snp_ammo", price = 250, amount = 25 },
 	[11] = { name = "mg_ammo", price = 250, amount = 25 },
-	[12] = { name = "radioscanner", price = 850, amount = 5 },
+	[12] = { name = "smg_ammo", price = 250, amount = 25 },
     },
 }
 

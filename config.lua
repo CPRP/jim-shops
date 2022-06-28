@@ -45,7 +45,8 @@ Config.Products = {
         [12] = { name = "firework4", price = 50, amount = 50, info = {} },
         [13] = { name = "fitbit", price = 400, amount = 150, info = {} },
         [14] = { name = "cleaningkit", price = 150, amount = 150, info = {} },
-        [15] = { name = "advancedrepairkit", price = 500, amount = 50, info = {}, requiredJob = { "mechanic" } },
+        [15] = { name = "kq_angle_grinder", price = 450, amount = 50, info = {}, },
+        [16] = { name = "advancedrepairkit", price = 500, amount = 50, info = {}, requiredJob = { "mechanic" } },
     },
     ["weedshop"] = {
         [1] = { name = "joint", price = 10, amount = 1000, info = {} },

@@ -78,9 +78,9 @@ Config.Products = {
         [1] = { name = "coffee", price = 5, amount = 500 },
         [2] = { name = "lighter", price = 2, amount = 50 },
     },
-    ["casino"] = {
-        [1] = { name = 'casinochips', price = 100, amount = 999999 },
-    },
+    -- ["casino"] = {
+    --     [1] = { name = 'casinochips', price = 100, amount = 999999 },
+    -- },
     ["electronics"] = {
         [1] = { name = "phone", price = 850, amount = 50 },
         [2] = { name = "radio", price = 250, amount = 50, },
@@ -101,6 +101,22 @@ Config.Products = {
 	[10] = { name = "snp_ammo", price = 250, amount = 25 },
 	[11] = { name = "mg_ammo", price = 250, amount = 25 },
 	[12] = { name = "smg_ammo", price = 250, amount = 25 },
+	[13] = { name = "weapon_shiv", price = 1000, amount = 20 },
+	[14] = { name = "weapon_katana", price = 4000, amount = 20 },
+	[15] = { name = "weapon_sledgehammer", price = 1500, amount = 20 },
+	[16] = { name = "weapon_ak47", price = 28000, amount = 5 },
+	[17] = { name = "weapon_m70", price = 25000, amount = 5 },
+	[18] = { name = "weapon_de", price = 10000, amount = 5 },
+	[19] = { name = "weapon_fnx45", price = 10000, amount = 5 },
+	[20] = { name = "weapon_m9", price = 10000, amount = 5 },
+	[21] = { name = "weapon_m1911", price = 10000, amount = 5 },
+	[22] = { name = "weapon_uzi", price = 25000, amount = 5 },
+	[23] = { name = "weapon_mac10", price = 25000, amount = 5 },
+	[24] = { name = "weapon_mossberg", price = 18000, amount = 5 },
+	[25] = { name = "weapon_huntingrifle", price = 40000, amount = 5 },
+	[26] = { name = "weapon_mp9", price = 28000, amount = 5 },
+	[27] = { name = "weapon_m110", price = 22000, amount = 5 },
+	[28] = { name = "weapon_hk416", price = 25000, amount = 5 },
     },
 }
 
@@ -296,17 +312,17 @@ Config.Locations = {
     },
 ]]
     -- Casino Locations
-	["casino"] = {
-		["label"] = "Diamond Casino",
-		["type"] = "items",
-		["model"] = { 
-			[1] = `U_F_M_CasinoShop_01`,
-		},
-		["coords"] = { vector4(949.3, 32.01, 71.84, 81.33), },
-		["products"] = Config.Products["casino"],
-		["blipsprite"] = 617,
-		["blipcolour"] = 0,
-	},
+	-- ["casino"] = {
+	-- 	["label"] = "Diamond Casino",
+	-- 	["type"] = "items",
+	-- 	["model"] = { 
+	-- 		[1] = `U_F_M_CasinoShop_01`,
+	-- 	},
+	-- 	["coords"] = { vector4(949.3, 32.01, 71.84, 81.33), },
+	-- 	["products"] = Config.Products["casino"],
+	-- 	["blipsprite"] = 617,
+	-- 	["blipcolour"] = 0,
+	-- },
     ["casino2"] = {
 		["label"] = "Casino Bar",
 		["coords"] = { vector4(950.68, 34.56, 71.85, 29.86), },

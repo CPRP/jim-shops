@@ -121,37 +121,37 @@ Config.Products = {
 }
 
 Config.Locations = {
-    -- 24/7 Locations
-    ["247supermarket"] = {
-        ["label"] = "24/7 Supermarket",
-		["type"] = "items",
-		["model"] = { 
-			[1] = `mp_m_shopkeep_01`,
-			[2] = `S_F_Y_Shop_LOW`,
-			[3] = `S_F_Y_SweatShop_01`,
-		},
-		["killable"] = true,
-		["logo"] = "https://i.imgur.com/bPcM0TM.png",
-        ["coords"] = {
-			vector4(24.5, -1346.19, 29.5, 266.78),
-			vector4(-3039.91, 584.26, 7.91, 16.79),
-			vector4(-3243.27, 1000.1, 12.83, 358.73),
-			vector4(1728.28, 6416.03, 35.04, 242.45),
-			vector4(1697.96, 4923.04, 42.06, 326.61),
-			vector4(1959.6, 3740.93, 32.34, 296.84),
-			vector4(549.16, 2670.35, 42.16, 92.53),
-			vector4(2677.41, 3279.8, 55.24, 334.16),
-			vector4(2556.19, 380.89, 108.62, 355.58),
-			vector4(372.82, 327.3, 103.57, 255.46),
-			vector4(161.21, 6642.32, 31.61, 223.57),
-		},
-        ["products"] = Config.Products["normal"],
-        ["blipsprite"] = 628,
-		["blipcolour"] = 2,
-    },
+    -- -- 24/7 Locations
+    -- ["247supermarket"] = {
+    --     ["label"] = "24/7 Supermarket",
+	-- 	["type"] = "items",
+	-- 	["model"] = { 
+	-- 		[1] = `mp_m_shopkeep_01`,
+	-- 		[2] = `S_F_Y_Shop_LOW`,
+	-- 		[3] = `S_F_Y_SweatShop_01`,
+	-- 	},
+	-- 	["killable"] = true,
+	-- 	["logo"] = "https://i.imgur.com/bPcM0TM.png",
+    --     ["coords"] = {
+	-- 		vector4(24.5, -1346.19, 29.5, 266.78),
+	-- 		vector4(-3039.91, 584.26, 7.91, 16.79),
+	-- 		vector4(-3243.27, 1000.1, 12.83, 358.73),
+	-- 		vector4(1728.28, 6416.03, 35.04, 242.45),
+	-- 		vector4(1697.96, 4923.04, 42.06, 326.61),
+	-- 		vector4(1959.6, 3740.93, 32.34, 296.84),
+	-- 		vector4(549.16, 2670.35, 42.16, 92.53),
+	-- 		vector4(2677.41, 3279.8, 55.24, 334.16),
+	-- 		vector4(2556.19, 380.89, 108.62, 355.58),
+	-- 		vector4(372.82, 327.3, 103.57, 255.46),
+	-- 		vector4(161.21, 6642.32, 31.61, 223.57),
+	-- 	},
+    --     ["products"] = Config.Products["normal"],
+    --     ["blipsprite"] = 628,
+	-- 	["blipcolour"] = 2,
+    -- },
    
 	-- 24/7 GABZ Locations
---[[    ["247supermarket"] = {
+    ["247supermarket"] = {
         ["label"] = "24/7 Supermarket",
 		["type"] = "items",
 		["model"] = { 
@@ -178,7 +178,7 @@ Config.Locations = {
         ["products"] = Config.Products["normal"],
         ["blipsprite"] = 628,
 		["blipcolour"] = 2,
-    },]]
+    },
 
     -- LTD Gasoline Locations
     ["ltdgasoline"] = {
@@ -249,39 +249,39 @@ Config.Locations = {
         ["blipsprite"] = 402,
 		["blipcolour"] = 5,
     },
-	-- Ammunation VANILLA Locations
-    ["ammunation"] = {
-        ["label"] = "Ammunation",
-		["type"] = "weapons",
-		["model"] = { 
-			[1] = `s_m_m_ammucountry`,
-			[2] = `S_M_Y_AmmuCity_01`,
-			[3] = `MP_M_WareMech_01`,
-			[4] = `A_M_M_Farmer_01`,
-			[5] = `MP_M_ExArmy_01`,
-			[6] = `S_M_Y_ArmyMech_01`,
-			[7] = `S_M_M_Armoured_02`,
-		},
-		["logo"] = "https://static.wikia.nocookie.net/gtawiki/images/a/aa/Ammunation-GTAV.png",
-        ["coords"] = {
-            vector4(808.94, -2158.99, 29.62, 330.26),
-            vector4(-660.98, -933.6, 21.83, 154.74),
-			vector4(1693.16, 3761.94, 34.71, 189.83),
-            vector4(-330.72, 6085.81, 31.45, 190.52),
-			vector4(253.41, -51.67, 69.94, 28.88),
-			vector4(23.69, -1105.95, 29.8, 124.58),
-            vector4(2566.81, 292.54, 108.73, 320.09),
-            vector4(-1118.19, 2700.5, 18.55, 185.31),
-            vector4(841.31, -1035.28, 28.19, 334.27),
-			vector4(-1304.44, -395.68, 36.7, 41.85),
-		},
-        ["products"] = Config.Products["weapons"],
-        ["blipsprite"] = 567,
-		["blipcolour"] = 1,
-    },
+	-- -- Ammunation VANILLA Locations
+    -- ["ammunation"] = {
+    --     ["label"] = "Ammunation",
+	-- 	["type"] = "weapons",
+	-- 	["model"] = { 
+	-- 		[1] = `s_m_m_ammucountry`,
+	-- 		[2] = `S_M_Y_AmmuCity_01`,
+	-- 		[3] = `MP_M_WareMech_01`,
+	-- 		[4] = `A_M_M_Farmer_01`,
+	-- 		[5] = `MP_M_ExArmy_01`,
+	-- 		[6] = `S_M_Y_ArmyMech_01`,
+	-- 		[7] = `S_M_M_Armoured_02`,
+	-- 	},
+	-- 	["logo"] = "https://static.wikia.nocookie.net/gtawiki/images/a/aa/Ammunation-GTAV.png",
+    --     ["coords"] = {
+    --         vector4(808.94, -2158.99, 29.62, 330.26),
+    --         vector4(-660.98, -933.6, 21.83, 154.74),
+	-- 		vector4(1693.16, 3761.94, 34.71, 189.83),
+    --         vector4(-330.72, 6085.81, 31.45, 190.52),
+	-- 		vector4(253.41, -51.67, 69.94, 28.88),
+	-- 		vector4(23.69, -1105.95, 29.8, 124.58),
+    --         vector4(2566.81, 292.54, 108.73, 320.09),
+    --         vector4(-1118.19, 2700.5, 18.55, 185.31),
+    --         vector4(841.31, -1035.28, 28.19, 334.27),
+	-- 		vector4(-1304.44, -395.68, 36.7, 41.85),
+	-- 	},
+    --     ["products"] = Config.Products["weapons"],
+    --     ["blipsprite"] = 567,
+	-- 	["blipcolour"] = 1,
+    -- },
 	
     -- Ammunation GABZ Locations
---[[	["ammunation"] = {
+	["ammunation"] = {
         ["label"] = "Ammunation",
 		["type"] = "weapons",
 		["model"] = { 
@@ -310,7 +310,7 @@ Config.Locations = {
         ["blipsprite"] = 110,
 		["blipcolour"] = 1,
     },
-]]
+	
     -- Casino Locations
 	-- ["casino"] = {
 	-- 	["label"] = "Diamond Casino",

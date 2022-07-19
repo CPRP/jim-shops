@@ -33,7 +33,7 @@ CreateThread(function()
 						RequestModel(v["model"][i]) while not HasModelLoaded(v["model"][i]) do Wait(0) end
 						if ped["Shop - ['"..k.."("..l..")']"] == nil then ped["Shop - ['"..k.."("..l..")']"] = CreatePed(0, v["model"][i], b.x, b.y, b.z-1.0, b.a, false, false) end
 						if not v["killable"] then SetEntityInvincible(ped["Shop - ['"..k.."("..l..")']"], true) end
-						local scenarios = { "WORLD_HUMAN_MUSCLE_FREE_WEIGHTS", "WORLD_HUMAN_GUARD_PATROL", "WORLD_HUMAN_JANITOR", "WORLD_HUMAN_MUSCLE_FLEX", "WORLD_HUMAN_MUSCLE_FREE_WEIGHTS", "PROP_HUMAN_STAND_IMPATIENT", }
+						local scenarios = { "WORLD_HUMAN_AA_COFFEE", "WORLD_HUMAN_GUARD_PATROL", "WORLD_HUMAN_JANITOR", "WORLD_HUMAN_STAND_MOBILE_UPRIGHT", "WORLD_HUMAN_STAND_MOBILE", "PROP_HUMAN_STAND_IMPATIENT", }
 						scenario = math.random(1, #scenarios)
 						TaskStartScenarioInPlace(ped["Shop - ['"..k.."("..l..")']"], scenarios[scenario], -1, true)
 						SetBlockingOfNonTemporaryEvents(ped["Shop - ['"..k.."("..l..")']"], true)

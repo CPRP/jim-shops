@@ -240,37 +240,37 @@ Config.Locations = {
 		["blipcolour"] = 5,
     },
 
-	-- -- Ammunation VANILLA Locations
-    -- ["ammunation"] = {
-    --     ["label"] = "Ammunation",
-    --     ["targetLabel"] = "Open Ammunation",
-	-- 	["type"] = "weapons",
-	-- 	["model"] = {
-	-- 		`s_m_m_ammucountry`,
-	-- 		`S_M_Y_AmmuCity_01`,
-	-- 		`MP_M_WareMech_01`,
-	-- 		`A_M_M_Farmer_01`,
-	-- 		`MP_M_ExArmy_01`,
-	-- 		`S_M_Y_ArmyMech_01`,
-	-- 		`S_M_M_Armoured_02`,
-	-- 	},
-	-- 	["logo"] = "https://static.wikia.nocookie.net/gtawiki/images/a/aa/Ammunation-GTAV.png",
-    --     ["coords"] = {
-    --         vector4(808.94, -2158.99, 29.62, 330.26),
-    --         vector4(-660.98, -933.6, 21.83, 154.74),
-	-- 		vector4(1693.16, 3761.94, 34.71, 189.83),
-    --         vector4(-330.72, 6085.81, 31.45, 190.52),
-	-- 		vector4(253.41, -51.67, 69.94, 28.88),
-	-- 		vector4(23.69, -1105.95, 29.8, 124.58),
-    --         vector4(2566.81, 292.54, 108.73, 320.09),
-    --         vector4(-1118.19, 2700.5, 18.55, 185.31),
-    --         vector4(841.31, -1035.28, 28.19, 334.27),
-	-- 		vector4(-1304.44, -395.68, 36.7, 41.85),
-	-- 	},
-    --     ["products"] = Config.Products["weapons"],
-    --     ["blipsprite"] = 567,
-	-- 	["blipcolour"] = 1,
-    -- },
+	-- Ammunation VANILLA Locations
+    ["ammunation"] = {
+        ["label"] = "Ammunation",
+        ["targetLabel"] = "Open Ammunation",
+		["type"] = "weapons",
+		["model"] = {
+			`s_m_m_ammucountry`,
+			`S_M_Y_AmmuCity_01`,
+			`MP_M_WareMech_01`,
+			`A_M_M_Farmer_01`,
+			`MP_M_ExArmy_01`,
+			`S_M_Y_ArmyMech_01`,
+			`S_M_M_Armoured_02`,
+		},
+		["logo"] = "https://static.wikia.nocookie.net/gtawiki/images/a/aa/Ammunation-GTAV.png",
+        ["coords"] = {
+            vector4(808.94, -2158.99, 29.62, 330.26),
+            vector4(-660.98, -933.6, 21.83, 154.74),
+			vector4(1693.16, 3761.94, 34.71, 189.83),
+            vector4(-330.72, 6085.81, 31.45, 190.52),
+			vector4(253.41, -51.67, 69.94, 28.88),
+			vector4(23.69, -1105.95, 29.8, 124.58),
+            vector4(2566.81, 292.54, 108.73, 320.09),
+            vector4(-1118.19, 2700.5, 18.55, 185.31),
+            vector4(841.31, -1035.28, 28.19, 334.27),
+			vector4(-1304.44, -395.68, 36.7, 41.85),
+		},
+        ["products"] = Config.Products["weapons"],
+        ["blipsprite"] = 567,
+		["blipcolour"] = 1,
+    },
 
     -- Casino Locations
 	-- ["casino"] = {

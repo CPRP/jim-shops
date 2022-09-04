@@ -344,6 +344,7 @@ Config.Locations = {
 		["coords"] = {
 			vector4(-628.97, 238.27, 81.9, 1.28),
 			vector4(126.55, -1028.12, 29.36, 343.0),
+			vector4(-1868.72, -340.14, 53.76, 148.46) --OceanHospitalCafe
 		},
 		["products"] = Config.Products["coffeeplace"],
 		["blipsprite"] = 52,
@@ -394,6 +395,7 @@ Config.Locations = {
         ["blipsprite"] = 52,
 		["blipcolour"] = 2,
     },
+	-- Digital Den
 	["digitalden"] = {
 		["label"] = "Digital Den",
 		["type"] = "items",
@@ -413,6 +415,7 @@ Config.Locations = {
 			vector4(-509.55, 278.63, 83.31, 176.65),
 			vector4(-656.27, -854.73, 24.5, 359.39),
 			vector4(-1088.29, -254.3, 37.76, 252.7),
+			vector4(1787.21, 2559.61, 45.67, 146.27), --PrisonDigitalDen
 			},
 		["products"] = Config.Products["electronics"],
 		["blipsprite"] = 619,
@@ -452,6 +455,7 @@ if Config.Gabz247 then
 		vector4(373.08, 326.75, 103.57, 253.14),
 		vector4(161.2, 6641.74, 31.7, 221.02),
 		vector4(812.86, -782.01, 26.17, 270.01),
+		vector4(-1830.1, -380.7, 49.4, 53.26), --OceanHospitalPharmacy
 	}
 end
 if Config.GabzAmmu then

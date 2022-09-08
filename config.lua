@@ -63,7 +63,7 @@ Config = {
 			{ name = "firework1", price = 50, amount = 50, info = {} },
 			{ name = "firework2", price = 50, amount = 50, info = {} },
 			{ name = "firework3", price = 50, amount = 50, info = {} },
-			{ name = "firework4", price = 50, amount = 50, info = {} },
+			{ name = "harness", price = 200, amount = 50, info = {} },
 			{ name = "fitbit", price = 400, amount = 150, info = {} },
 			{ name = "ducttape", price = 150, amount = 150, info = {} },
 			{ name = "cleaningkit", price = 150, amount = 150, info = {} },

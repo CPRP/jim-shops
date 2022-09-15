@@ -43,6 +43,7 @@ Config = {
 			{ name = "bandage", price = 100, amount = 50, },
 			{ name = "lighter", price = 2, amount = 50, },
 			{ name = "rolling_paper", price = 2, amount = 5000,  },
+			{ name = "sodiumbicarbonate", price = 8, amount = 200,  },
 		},
 		["bar"] = {
 			{ name = "water_bottle", price = 2, amount = 50, },
@@ -69,6 +70,8 @@ Config = {
 			{ name = "cleaningkit", price = 150, amount = 150, info = {} },
 			{ name = "kq_angle_grinder", price = 450, amount = 50, info = {}, },
 			{ name = "advancedrepairkit", price = 500, amount = 50, info = {}, requiredJob = { ["mechanic"] = 0 } },
+			{ name = "plasticjerrycan", price = 20, amount = 500, info = {} },
+			{ name = "trowel", price = 1000, amount = 50, info = {} },
 		},
 		["weedshop"] = {
 			{ name = "joint", price = 10, amount = 1000, },
@@ -334,22 +337,22 @@ Config.Locations = {
 		["blipcolour"] = 2,
 	},
 
-    -- Bean Coffee Locations
-    ["beancoffee"] = {
-		["label"] = "Bean Machine Coffee",
-		["type"] = "items",
-		["model"] = {
-			`A_F_Y_Hipster_02`,
-		},
-		["coords"] = {
-			vector4(-628.97, 238.27, 81.9, 1.28),
-			vector4(126.55, -1028.12, 29.36, 343.0),
-			vector4(-1868.72, -340.14, 53.76, 148.46) --OceanHospitalCafe
-		},
-		["products"] = Config.Products["coffeeplace"],
-		["blipsprite"] = 52,
-		["blipcolour"] = 31,
-    },
+    -- -- Bean Coffee Locations
+    -- ["beancoffee"] = {
+	-- 	["label"] = "Bean Machine Coffee",
+	-- 	["type"] = "items",
+	-- 	["model"] = {
+	-- 		`A_F_Y_Hipster_02`,
+	-- 	},
+	-- 	["coords"] = {
+	-- 		vector4(-628.97, 238.27, 81.9, 1.28),
+	-- 		vector4(126.55, -1028.12, 29.36, 343.0),
+	-- 		vector4(-1868.72, -340.14, 53.76, 148.46) --OceanHospitalCafe
+	-- 	},
+	-- 	["products"] = Config.Products["coffeeplace"],
+	-- 	["blipsprite"] = 52,
+	-- 	["blipcolour"] = 31,
+    -- },
 
     -- Sea Word Locations
     ["seaworld"] = {

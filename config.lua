@@ -420,6 +420,7 @@ Config.Locations = {
 			vector4(-656.27, -854.73, 24.5, 359.39),
 			vector4(-1088.29, -254.3, 37.76, 252.7),
 			vector4(1787.21, 2559.61, 45.67, 146.27), --PrisonDigitalDen
+			vector4(4520.02, -4515.15, 4.49, 53.98), --CairoPerico
 			},
 		["products"] = Config.Products["electronics"],
 		["blipsprite"] = 619,
@@ -460,6 +461,7 @@ if Config.Gabz247 then
 		vector4(161.2, 6641.74, 31.7, 221.02),
 		vector4(812.86, -782.01, 26.17, 270.01),
 		vector4(-1830.1, -380.7, 49.4, 53.26), --OceanHospitalPharmacy
+		vector4(4493.97, -4525.99, 4.41, 326.1), --CairoPerico
 	}
 end
 if Config.GabzAmmu then

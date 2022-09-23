@@ -33,24 +33,24 @@ Config = {
 	Products = {
 		["normal"] = {
 			{ name = "tosti", price = 2, amount = 50, },
-			{ name = "water_bottle", price = 2, amount = 50, },
+			{ name = "water_bottle", price = 2, amount = 75, },
 			{ name = "kurkakola", price = 2, amount = 50, },
 			{ name = "twerks_candy", price = 2, amount = 50, },
 			{ name = "snikkel_candy", price = 2, amount = 50, },
-			{ name = "sandwich", price = 2, amount = 50, },
+			{ name = "sandwich", price = 2, amount = 75, },
 			{ name = "beer", price = 7, amount = 50, },
 			{ name = "whiskey", price = 10, amount = 50, },
-			{ name = "vodka", price = 70000, amount = 50, },
+			{ name = "vodka", price = 15, amount = 50, },
 			{ name = "bandage", price = 100, amount = 50, },
 			{ name = "lighter", price = 2, amount = 50, },
 			{ name = "rolling_paper", price = 2, amount = 5000,  },
 			{ name = "sodiumbicarbonate", price = 8, amount = 200,  },
 		},
 		["bar"] = {
-			{ name = "water_bottle", price = 2, amount = 50, },
+			{ name = "water_bottle", price = 2, amount = 75, },
 			{ name = "beer", price = 7, amount = 50, },
 			{ name = "whiskey", price = 10, amount = 50, },
-			{ name = "vodka", price = 70000, amount = 50, },
+			{ name = "vodka", price = 15, amount = 50, },
 		},
 		["hardware"] = {
 			{ name = "lockpick", price = 200, amount = 50, info = {} },
@@ -462,6 +462,8 @@ if Config.Gabz247 then
 		vector4(812.86, -782.01, 26.17, 270.01),
 		vector4(-1830.1, -380.7, 49.4, 53.26), --OceanHospitalPharmacy
 		vector4(4493.97, -4525.99, 4.41, 326.1), --CairoPerico
+		vector4(1770.24, 3324.0, 41.44, 271.36), --FlyWheels
+		vector4(-492.23, -342.62, 42.32, 359.21), --ZonahPharmacy
 	}
 end
 if Config.GabzAmmu then

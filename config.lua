@@ -7,7 +7,7 @@ print("^2Jim^7-^2Shops v^41^7.^47 ^7- ^2Shop Script by ^1Jimathy^7")
 Config = {
 	Debug = false, -- Enable to add debug boxes and message.
 	img = "lj-inventory/html/images/", -- Set this to your inventory
-	JimMenu = false, -- Enable this if you are using an updated qb-menu resource with icon support
+	JimMenu = true, -- Enable this if you are using an updated qb-menu resource with icon support
 	ApGov = false, -- Add support for AP-Goverment Tax 
 	Peds = true, -- Set to true if you want Shops to have Peds
 	Limit = true, -- Enable this to add Stash features, This adds limits to items and gets refilled at each restart

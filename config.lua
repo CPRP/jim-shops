@@ -45,6 +45,7 @@ Config = {
 			{ name = "lighter", price = 2, amount = 50, },
 			{ name = "rolling_paper", price = 2, amount = 5000,  },
 			{ name = "sodiumbicarbonate", price = 8, amount = 200,  },
+			{ name = "notepad", price = 5, amount = 50,  },
 		},
 		["bar"] = {
 			{ name = "water_bottle", price = 2, amount = 75, },

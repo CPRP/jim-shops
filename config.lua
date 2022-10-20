@@ -74,6 +74,8 @@ Config = {
 			{ name = "advancedrepairkit", price = 500, amount = 50, info = {}, requiredJob = { ["mechanic"] = 0 } },
 			{ name = "plasticjerrycan", price = 20, amount = 500, info = {} },
 			{ name = "trowel", price = 1000, amount = 50, info = {} },
+			{ name = "ziptie", price = 100, amount = 25, info = {} },
+			{ name = "headbag", price = 100, amount = 25, info = {} },
 		},
 		["weedshop"] = {
 			{ name = "joint", price = 10, amount = 1000, },

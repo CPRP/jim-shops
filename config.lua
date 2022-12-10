@@ -66,7 +66,7 @@ Config = {
 			{ name = "firework1", price = 50, amount = 50, info = {} },
 			{ name = "firework2", price = 50, amount = 50, info = {} },
 			{ name = "firework3", price = 50, amount = 50, info = {} },
-			{ name = "harness", price = 200, amount = 50, info = {} },
+			{ name = "harness", price = 50, amount = 50, info = {} },
 			{ name = "fitbit", price = 400, amount = 150, info = {} },
 			{ name = "ducttape", price = 150, amount = 150, info = {} },
 			{ name = "cleaningkit", price = 150, amount = 150, info = {} },
@@ -76,6 +76,7 @@ Config = {
 			{ name = "trowel", price = 1000, amount = 50, info = {} },
 			{ name = "ziptie", price = 100, amount = 25, info = {} },
 			{ name = "headbag", price = 100, amount = 25, info = {} },
+			{ name = "fakeplate", price = 1000, amount = 5, info = {} },
 		},
 		["weedshop"] = {
 			{ name = "joint", price = 10, amount = 1000, },
@@ -87,11 +88,14 @@ Config = {
 		["gearshop"] = {
 			{ name = "diving_gear", price = 2500, amount = 10, },
 			{ name = "jerry_can", price = 200, amount = 50, },
+			{ name = "diving_fill", price = 1000, amount = 10, },
 		},
 		["leisureshop"] = {
 			{ name = "parachute", price = 2500, amount = 10, },
 			{ name = "binoculars", price = 50, amount = 50, },
 			{ name = "diving_gear", price = 2500, amount = 10, },
+			{ name = "diving_fill", price = 1000, amount = 10, },
+
 		},
 		["weapons"] = {
 			{ name = "weapon_knife", price = 250, amount = 250, },

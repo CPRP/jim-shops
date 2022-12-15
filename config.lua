@@ -66,7 +66,7 @@ Config = {
 			{ name = "firework1", price = 50, amount = 50, info = {} },
 			{ name = "firework2", price = 50, amount = 50, info = {} },
 			{ name = "firework3", price = 50, amount = 50, info = {} },
-			{ name = "harness", price = 50, amount = 50, info = {} },
+			-- { name = "harness", price = 50, amount = 50, info = {} },
 			{ name = "fitbit", price = 400, amount = 150, info = {} },
 			{ name = "ducttape", price = 150, amount = 150, info = {} },
 			{ name = "cleaningkit", price = 150, amount = 150, info = {} },
@@ -76,7 +76,7 @@ Config = {
 			{ name = "trowel", price = 1000, amount = 50, info = {} },
 			{ name = "ziptie", price = 100, amount = 25, info = {} },
 			{ name = "headbag", price = 100, amount = 25, info = {} },
-			{ name = "fakeplate", price = 1000, amount = 5, info = {} },
+			-- { name = "fakeplate", price = 1000, amount = 5, info = {} },
 		},
 		["weedshop"] = {
 			{ name = "joint", price = 10, amount = 1000, },

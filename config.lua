@@ -7,7 +7,7 @@ print("^2Jim^7-^2Shops v^41^7.^47 ^7- ^2Shop Script by ^1Jimathy^7")
 Config = {
 	Debug = false, -- Enable to add debug boxes and message.
 	img = "lj-inventory/html/images/", -- Set this to your inventory
-	JimMenu = true, -- Enable this if you are using an updated qb-menu resource with icon support
+	JimMenu = false, -- Enable this if you are using an updated qb-menu resource with icon support
 	ApGov = false, -- Add support for AP-Goverment Tax 
 	Peds = true, -- Set to true if you want Shops to have Peds
 	Limit = true, -- Enable this to add Stash features, This adds limits to items and gets refilled at each restart
@@ -46,6 +46,7 @@ Config = {
 			{ name = "rolling_paper", price = 2, amount = 5000,  },
 			{ name = "sodiumbicarbonate", price = 8, amount = 200,  },
 			{ name = "notepad", price = 5, amount = 50,  },
+			{ name = "sodiumcarbonate", price = 8, amount = 50,  },
 		},
 		["bar"] = {
 			{ name = "water_bottle", price = 2, amount = 75, },
@@ -77,14 +78,16 @@ Config = {
 			{ name = "ziptie", price = 100, amount = 25, info = {} },
 			{ name = "headbag", price = 100, amount = 25, info = {} },
 			-- { name = "fakeplate", price = 1000, amount = 5, info = {} },
+			{ name = "razorblade", price = 5, amount = 100, info = {} },
+			{ name = "ammonia", price = 20, amount = 100, info = {} },
 		},
-		["weedshop"] = {
-			{ name = "joint", price = 10, amount = 1000, },
-			{ name = "weapon_poolcue", price = 100, amount = 1000, },
-			{ name = "weed_nutrition", price = 20, amount = 1000, },
-			{ name = "empty_weed_bag", price = 2, amount = 1000, },
-			{ name = "rolling_paper", price = 2, amount = 1000, },
-		},
+		-- ["weedshop"] = {
+		-- 	{ name = "joint", price = 10, amount = 1000, },
+		-- 	{ name = "weapon_poolcue", price = 100, amount = 1000, },
+		-- 	{ name = "weed_nutrition", price = 20, amount = 1000, },
+		-- 	{ name = "empty_weed_bag", price = 2, amount = 1000, },
+		-- 	{ name = "rolling_paper", price = 2, amount = 1000, },
+		-- },
 		["gearshop"] = {
 			{ name = "diving_gear", price = 2500, amount = 10, },
 			{ name = "jerry_can", price = 200, amount = 50, },
@@ -160,6 +163,7 @@ Config = {
 			{ name = "weapon_mp9", price = 28000, amount = 5 },
 			{ name = "weapon_m110", price = 22000, amount = 5 },
 			{ name = "weapon_hk416", price = 25000, amount = 5 },
+			{ name = "burnerphone", price = 200, amount = 50 },
 		},
 	},
 }
@@ -328,22 +332,22 @@ Config.Locations = {
 		["blipcolour"] = 0,
 	},
 
-    -- Weedshop Locations
-    ["weedshop"] = {
-		["label"] = "Smoke on the Water",
-		["type"] = "items",
-		["model"] = {
-			`mp_f_weed_01`,
-			`MP_M_Weed_01`,
-			`A_M_Y_MethHead_01`,
-			`A_F_Y_RurMeth_01`,
-			`a_m_y_hippy_01`,
-		},
-		["coords"] = { vector4(-1173.12, -1572.71, 4.66, 123.56), },
-		["products"] = Config.Products["weedshop"],
-		["blipsprite"] = 496,
-		["blipcolour"] = 2,
-	},
+    -- -- Weedshop Locations
+    -- ["weedshop"] = {
+	-- 	["label"] = "Smoke on the Water",
+	-- 	["type"] = "items",
+	-- 	["model"] = {
+	-- 		`mp_f_weed_01`,
+	-- 		`MP_M_Weed_01`,
+	-- 		`A_M_Y_MethHead_01`,
+	-- 		`A_F_Y_RurMeth_01`,
+	-- 		`a_m_y_hippy_01`,
+	-- 	},
+	-- 	["coords"] = { vector4(-1173.12, -1572.71, 4.66, 123.56), },
+	-- 	["products"] = Config.Products["weedshop"],
+	-- 	["blipsprite"] = 496,
+	-- 	["blipcolour"] = 2,
+	-- },
 
     -- -- Bean Coffee Locations
     -- ["beancoffee"] = {

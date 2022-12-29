@@ -8,7 +8,7 @@ Config = {
 	Debug = false, -- Enable to add debug boxes and message.
 	img = "lj-inventory/html/images/", -- Set this to your inventory
 	JimMenu = false, -- Enable this if you are using an updated qb-menu resource with icon support
-	ApGov = false, -- Add support for AP-Goverment Tax 
+	ApGov = true, -- Add support for AP-Goverment Tax 
 	Peds = true, -- Set to true if you want Shops to have Peds
 	Limit = true, -- Enable this to add Stash features, This adds limits to items and gets refilled at each restart
 	MaxSlots = 41, -- Set this to your player inventory slot count, this is default "41"
@@ -80,6 +80,7 @@ Config = {
 			-- { name = "fakeplate", price = 1000, amount = 5, info = {} },
 			{ name = "razorblade", price = 5, amount = 100, info = {} },
 			{ name = "ammonia", price = 20, amount = 100, info = {} },
+			{ name = "drill", price = 1500, amount = 10, info = {} },
 		},
 		-- ["weedshop"] = {
 		-- 	{ name = "joint", price = 10, amount = 1000, },

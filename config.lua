@@ -81,6 +81,8 @@ Config = {
 			{ name = "razorblade", price = 5, amount = 100, info = {} },
 			{ name = "ammonia", price = 20, amount = 100, info = {} },
 			{ name = "drill", price = 1500, amount = 10, info = {} },
+			{ name = "syphoningkit", price = 2500, amount = 5, info = { gasamount = 0 } }, -- CDN-Fuel
+			{ name = "jerrycan", price = 750, amount = 50, info = { gasamount = 0 } }, -- CDN-Fuel
 		},
 		-- ["weedshop"] = {
 		-- 	{ name = "joint", price = 10, amount = 1000, },
@@ -108,6 +110,7 @@ Config = {
 			{ name = "weapon_pistol", price = 2500, amount = 5, requiresLicense = true },
 			{ name = "weapon_snspistol", price = 1500, amount = 5, requiresLicense = true },
 			{ name = "weapon_vintagepistol", price = 4000, amount = 5, requiresLicense = true },
+			{ name = "weapon_revolver", price = 5000, amount = 5, requiresLicense = true },
 			{ name = "pistol_ammo", price = 250, amount = 250,  requiresLicense = true },
 		},
 		["coffeeplace"] = {
@@ -137,6 +140,12 @@ Config = {
 		},
 		["blackmarket"] = {
 			{ name = "weapon_dagger", price = 2000, amount = 20 },
+			{ name = "weapon_revolver_mk2", price = 5000, amount = 5 },
+			{ name = "weapon_doubleaction", price = 6000, amount = 5 },
+			{ name = "weapon_appistol", price = 12000, amount = 5 },
+			{ name = "weapon_ceramicpistol", price = 10000, amount = 5 },
+			{ name = "weapon_navyrevolver", price = 3000, amount = 5 },
+			{ name = "weapon_gadgetpistol", price = 4000, amount = 5 },
 			{ name = "weapon_pumpshotgun_mk2", price = 18000, amount = 5 },
 			{ name = "weapon_smg_mk2", price = 25000, amount = 5 },
 			{ name = "weapon_carbinerifle_mk2", price = 28000, amount = 5 },
@@ -149,9 +158,12 @@ Config = {
 			{ name = "mg_ammo", price = 250, amount = 25 },
 			{ name = "smg_ammo", price = 250, amount = 25 },
 			{ name = "weapon_shiv", price = 1000, amount = 20 },
+			{ name = "weapon_karambit", price = 1000, amount = 20 },
 			{ name = "weapon_katana", price = 4000, amount = 20 },
 			{ name = "weapon_sledgehammer", price = 1500, amount = 20 },
 			{ name = "weapon_ak47", price = 28000, amount = 5 },
+			{ name = "weapon_aks74", price = 28000, amount = 5 },
+			{ name = "weapon_ak74", price = 28000, amount = 5 },
 			{ name = "weapon_m70", price = 25000, amount = 5 },
 			{ name = "weapon_de", price = 10000, amount = 5 },
 			{ name = "weapon_fnx45", price = 10000, amount = 5 },
@@ -160,8 +172,8 @@ Config = {
 			{ name = "weapon_uzi", price = 25000, amount = 5 },
 			{ name = "weapon_mac10", price = 25000, amount = 5 },
 			{ name = "weapon_mossberg", price = 18000, amount = 5 },
-			{ name = "weapon_huntingrifle", price = 40000, amount = 5 },
 			{ name = "weapon_mp9", price = 28000, amount = 5 },
+			{ name = "weapon_mp5", price = 28000, amount = 5 },
 			{ name = "weapon_m110", price = 22000, amount = 5 },
 			{ name = "weapon_hk416", price = 25000, amount = 5 },
 			{ name = "burnerphone", price = 200, amount = 50 },

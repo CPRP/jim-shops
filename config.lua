@@ -176,7 +176,6 @@ Config = {
 			{ name = "weapon_mp5", price = 28000, amount = 5 },
 			{ name = "weapon_m110", price = 22000, amount = 5 },
 			{ name = "weapon_hk416", price = 25000, amount = 5 },
-			{ name = "burnerphone", price = 200, amount = 50 },
 		},
 	},
 }

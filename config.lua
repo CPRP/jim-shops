@@ -142,7 +142,7 @@ Config = {
 			{ name = "weapon_dagger", price = 2000, amount = 20 },
 			{ name = "weapon_revolver_mk2", price = 5000, amount = 5 },
 			{ name = "weapon_doubleaction", price = 6000, amount = 5 },
-			{ name = "weapon_appistol", price = 12000, amount = 5 },
+			{ name = "weapon_glock18c", price = 12000, amount = 5 },
 			{ name = "weapon_ceramicpistol", price = 10000, amount = 5 },
 			{ name = "weapon_navyrevolver", price = 3000, amount = 5 },
 			{ name = "weapon_gadgetpistol", price = 4000, amount = 5 },
@@ -208,6 +208,7 @@ Config.Locations = {
         ["products"] = Config.Products["normal"],
         ["blipsprite"] = 628,
 		["blipcolour"] = 2,
+		["hideblip"] = true,
     },
 	
     -- LTD Gasoline Locations
@@ -233,6 +234,7 @@ Config.Locations = {
         ["products"] = Config.Products["normal"],
         ["blipsprite"] = 628,
 		["blipcolour"] = 5,
+		["hideblip"] = true,
     },
     -- Rob's Liquor Locations
     ["robsliquor"] = {
@@ -256,6 +258,7 @@ Config.Locations = {
         ["products"] = Config.Products["bar"],
         ["blipsprite"] = 628,
 		["blipcolour"] = 31,
+		["hideblip"] = true,
     },
     -- Hardware Store Locations
     ["hardware"] = {
@@ -278,6 +281,7 @@ Config.Locations = {
         ["products"] = Config.Products["hardware"],
         ["blipsprite"] = 402,
 		["blipcolour"] = 5,
+		["hideblip"] = true,
     },
 
 	-- Ammunation VANILLA Locations
@@ -310,6 +314,7 @@ Config.Locations = {
         ["products"] = Config.Products["weapons"],
         ["blipsprite"] = 567,
 		["blipcolour"] = 1,
+		["hideblip"] = true,
     },
 
     -- Casino Locations
@@ -342,6 +347,7 @@ Config.Locations = {
 		["products"] = Config.Products["bar"],
 		["blipsprite"] = 52,
 		["blipcolour"] = 0,
+		["hideblip"] = true,
 	},
 
     -- -- Weedshop Locations
@@ -421,6 +427,7 @@ Config.Locations = {
         ["products"] = Config.Products["normal"],
         ["blipsprite"] = 52,
 		["blipcolour"] = 2,
+		["hideblip"] = true,
     },
 	-- Digital Den
 	["digitalden"] = {
@@ -448,6 +455,7 @@ Config.Locations = {
 		["products"] = Config.Products["electronics"],
 		["blipsprite"] = 619,
 		["blipcolour"] = 7,
+		["hideblip"] = true,
 	},
 	["lostmc"] = { -- More of a test/example - Gang accessible stores
 		["label"] = "Lost MC",
@@ -517,11 +525,17 @@ if Config.BlackMarket then
 			`MP_M_Meth_01`,
 		},
 		["coords"] = { 
-			vector4(2461.33, 1574.54, 33.11, 331.25),
-			vector4(66.72, 3692.77, 39.75, 9.69),
-			vector4(-436.21, 6154.0, 31.48, 357.37),
-			vector4(295.61, -932.5, 56.46, 89.69),
-			vector4(-1837.95, 436.28, 126.11, 122.16),
+			vector4(1743.44, -1621.83, 112.41, 141.75),
+			vector4(2485.36, 3444.64, 51.07, 24.44),
+			vector4(698.38, 4086.35, 32.82, 185.53),
+			vector4(-1197.36, -456.22, 33.57, 22.87),
+			vector4(-1592.44, 5201.6, 4.31, 298.72),
+			--[[OLD LOCATIONS]]
+			-- vector4(2461.33, 1574.54, 33.11, 331.25),
+			-- vector4(66.72, 3692.77, 39.75, 9.69),
+			-- vector4(-436.21, 6154.0, 31.48, 357.37),
+			-- vector4(295.61, -932.5, 56.46, 89.69),
+			-- vector4(-1837.95, 436.28, 126.11, 122.16),
 		},
 		["products"] = Config.Products["blackmarket"],
 		["hideblip"] = true,

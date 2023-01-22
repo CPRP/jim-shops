@@ -77,7 +77,6 @@ Config = {
 			{ name = "trowel", price = 1000, amount = 50, info = {} },
 			{ name = "ziptie", price = 100, amount = 25, info = {} },
 			{ name = "headbag", price = 100, amount = 25, info = {} },
-			-- { name = "fakeplate", price = 1000, amount = 5, info = {} },
 			{ name = "razorblade", price = 5, amount = 100, info = {} },
 			{ name = "ammonia", price = 20, amount = 100, info = {} },
 			{ name = "drill", price = 1500, amount = 10, info = {} },

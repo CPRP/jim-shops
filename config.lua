@@ -105,8 +105,15 @@ Config = {
 		},
 		["weapons"] = {
 			{ name = "weapon_knife", price = 250, amount = 250, },
+			{ name = "weapon_hatchet",price = 250, amount = 250, },
+			{ name = "weapon_switchblade", price = 250, amount = 250, },
+			{ name = "weapon_machete", price = 250, amount = 250, },
+			{ name = "weapon_knuckle", price = 250, amount = 250, },
+			{ name = "weapon_hammer", price = 250, amount = 250, },
+			{ name = "weapon_crowbar", price = 250, amount = 250, },
+			{ name = "weapon_golfclub", price = 250, amount = 250, },
 			{ name = "weapon_bat", price = 250, amount = 250, },
-			{ name = "weapon_hatchet",price = 250, amount = 250,  requiredJob = { ["mechanic"] = 0, ["police"] = 0 } },
+			{ name = "weaponrepairkit", price = 500, amount = 50, },
 			{ name = "weapon_pistol", price = 2500, amount = 5, requiresLicense = true },
 			{ name = "weapon_snspistol", price = 1500, amount = 5, requiresLicense = true },
 			{ name = "weapon_vintagepistol", price = 4000, amount = 5, requiresLicense = true },
@@ -119,6 +126,19 @@ Config = {
 		},
 		-- ["casino"] = {
 		-- 	{ name = 'casinochips', price = 1, amount = 999999 },
+		-- },
+		-- ["casinobar"] = {
+		-- 	{ name = 'casino_beer', price = 15, amount = 100 },
+		-- 	{ name = 'casino_burger', price = 10, amount = 100 },
+		-- 	{ name = 'casino_chips', price = 8, amount = 100 },
+		-- 	{ name = 'casino_coffee', price = 12, amount = 100 },
+		-- 	{ name = 'casino_coke', price = 8, amount = 100 },
+		-- 	{ name = 'casino_donut', price = 5, amount = 100 },
+		-- 	{ name = 'casino_ego_chaser', price = 4, amount = 100 },
+		-- 	{ name = 'casino_luckypotion', price = 20, amount = 100 },
+		-- 	{ name = 'casino_psqs', price = 4, amount = 100 },
+		-- 	{ name = 'casino_sandwitch', price = 10, amount = 100 },
+		-- 	{ name = 'casino_sprite', price = 8, amount = 100 },
 		-- },
 		["electronics"] = {
 			{ name = "phone", price = 850, amount = 50 },
@@ -317,7 +337,7 @@ Config.Locations = {
 		["hideblip"] = true,
     },
 
-    -- Casino Locations
+    -- -- Casino Locations
 	-- ["casino"] = {
 	-- 	["label"] = "Diamond Casino",
 	-- 	["targetLabel"] = "Buy Chips",
@@ -337,18 +357,18 @@ Config.Locations = {
 	-- 	["blipsprite"] = 617,
 	-- 	["blipcolour"] = 0,
 	-- },
-    ["casino2"] = {
-		["label"] = "Casino Bar",
-		["coords"] = { vector4(979.44, 25.4, 71.46, 0.75), },
-		["type"] = "items",
-		["model"] = {
-			`S_M_M_HighSec_01`,
-		},
-		["products"] = Config.Products["bar"],
-		["blipsprite"] = 52,
-		["blipcolour"] = 0,
-		["hideblip"] = true,
-	},
+    -- ["casino2"] = {
+	-- 	["label"] = "Casino Bar",
+	-- 	["coords"] = { vector4(979.44, 25.4, 71.46, 0.75), },
+	-- 	["type"] = "items",
+	-- 	["model"] = {
+	-- 		`S_M_M_HighSec_01`,
+	-- 	},
+	-- 	["products"] = Config.Products["casinobar"],
+	-- 	["blipsprite"] = 52,
+	-- 	["blipcolour"] = 0,
+	-- 	["hideblip"] = true,
+	-- },
 
     -- -- Weedshop Locations
     -- ["weedshop"] = {

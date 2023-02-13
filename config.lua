@@ -32,28 +32,29 @@ Config = {
 	},
 	Products = {
 		["normal"] = {
-			{ name = "tosti", price = 2, amount = 50, },
-			{ name = "water_bottle", price = 2, amount = 75, },
-			{ name = "kurkakola", price = 2, amount = 50, },
-			{ name = "twerks_candy", price = 2, amount = 50, },
-			{ name = "snikkel_candy", price = 2, amount = 50, },
-			{ name = "sandwich", price = 2, amount = 75, },
-			{ name = "beer", price = 7, amount = 50, },
-			{ name = "whiskey", price = 10, amount = 50, },
-			{ name = "vodka", price = 15, amount = 50, },
+			-- { name = "tosti", price = 2, amount = 50, },
+			-- { name = "water_bottle", price = 2, amount = 75, },
+			-- { name = "kurkakola", price = 2, amount = 50, },
+			-- { name = "twerks_candy", price = 2, amount = 50, },
+			-- { name = "snikkel_candy", price = 2, amount = 50, },
+			-- { name = "sandwich", price = 2, amount = 75, },
+			-- { name = "beer", price = 7, amount = 50, },
+			-- { name = "whiskey", price = 10, amount = 50, },
+			-- { name = "vodka", price = 15, amount = 50, },
 			{ name = "bandage", price = 100, amount = 50, },
 			{ name = "lighter", price = 2, amount = 50, },
 			{ name = "rolling_paper", price = 2, amount = 5000,  },
 			{ name = "sodiumbicarbonate", price = 8, amount = 200,  },
 			{ name = "notepad", price = 5, amount = 50,  },
 			{ name = "sodiumcarbonate", price = 8, amount = 50,  },
+			{ name = "clothingbag", price = 250, amount = 50,  },
 		},
-		["bar"] = {
-			{ name = "water_bottle", price = 2, amount = 75, },
-			{ name = "beer", price = 7, amount = 50, },
-			{ name = "whiskey", price = 10, amount = 50, },
-			{ name = "vodka", price = 15, amount = 50, },
-		},
+		-- ["bar"] = {
+		-- 	{ name = "water_bottle", price = 2, amount = 75, },
+		-- 	{ name = "beer", price = 7, amount = 50, },
+		-- 	{ name = "whiskey", price = 10, amount = 50, },
+		-- 	{ name = "vodka", price = 15, amount = 50, },
+		-- },
 		["hardware"] = {
 			{ name = "lockpick", price = 200, amount = 50, info = {} },
 			{ name = "weapon_wrench", price = 250, amount = 250, info = {} },
@@ -100,7 +101,6 @@ Config = {
 			{ name = "binoculars", price = 50, amount = 50, },
 			{ name = "diving_gear", price = 2500, amount = 10, },
 			{ name = "diving_fill", price = 1000, amount = 10, },
-
 		},
 		["weapons"] = {
 			{ name = "weapon_knife", price = 250, amount = 250, },
@@ -257,29 +257,29 @@ Config.Locations = {
 		["hideblip"] = true,
     },
     -- Rob's Liquor Locations
-    ["robsliquor"] = {
-        ["label"] = "Rob's Liqour",
-		["type"] = "items",
-		["model"] = {
-			`cs_nervousron`,
-			`IG_RussianDrunk`,
-			`U_M_Y_MilitaryBum`,
-			`A_F_M_TrampBeac_01`,
-			`A_M_M_Tramp_01`,
-		},
-		["logo"] = "https://static.wikia.nocookie.net/gtawiki/images/d/de/RebsLiquor-GTAV.png",
-        ["coords"] = {
-			vector4(-1221.38, -907.89, 12.33, 27.51),
-			vector4(-1486.82, -377.48, 40.16, 130.89),
-			vector4(-2966.41, 391.62, 15.04, 87.82),
-			vector4(1165.15, 2710.78, 38.16, 177.96),
-			vector4(1134.3, -983.26, 46.42, 276.3),
-		},
-        ["products"] = Config.Products["bar"],
-        ["blipsprite"] = 628,
-		["blipcolour"] = 31,
-		["hideblip"] = true,
-    },
+    -- ["robsliquor"] = {
+    --     ["label"] = "Rob's Liqour",
+	-- 	["type"] = "items",
+	-- 	["model"] = {
+	-- 		`cs_nervousron`,
+	-- 		`IG_RussianDrunk`,
+	-- 		`U_M_Y_MilitaryBum`,
+	-- 		`A_F_M_TrampBeac_01`,
+	-- 		`A_M_M_Tramp_01`,
+	-- 	},
+	-- 	["logo"] = "https://static.wikia.nocookie.net/gtawiki/images/d/de/RebsLiquor-GTAV.png",
+    --     ["coords"] = {
+	-- 		vector4(-1221.38, -907.89, 12.33, 27.51),
+	-- 		vector4(-1486.82, -377.48, 40.16, 130.89),
+	-- 		vector4(-2966.41, 391.62, 15.04, 87.82),
+	-- 		vector4(1165.15, 2710.78, 38.16, 177.96),
+	-- 		vector4(1134.3, -983.26, 46.42, 276.3),
+	-- 	},
+    --     ["products"] = Config.Products["bar"],
+    --     ["blipsprite"] = 628,
+	-- 	["blipcolour"] = 31,
+	-- 	["hideblip"] = true,
+    -- },
     -- Hardware Store Locations
     ["hardware"] = {
         ["label"] = "Hardware Store",
@@ -511,7 +511,6 @@ if Config.Gabz247 then
 		vector4(373.08, 326.75, 103.57, 253.14),
 		vector4(161.2, 6641.74, 31.7, 221.02),
 		vector4(812.86, -782.01, 26.17, 270.01),
-		vector4(-1830.1, -380.7, 49.4, 53.26), --OceanHospitalPharmacy
 		vector4(4493.97, -4525.99, 4.41, 326.1), --CairoPerico
 		vector4(1770.24, 3324.0, 41.44, 271.36), --FlyWheels
 		vector4(-492.23, -342.62, 42.32, 359.21), --ZonahPharmacy

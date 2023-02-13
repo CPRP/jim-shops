@@ -81,7 +81,7 @@ CreateThread(function()
 				-- 	options[#options+1] = { type = "server", event = "jim-shops:server:sellChips", icon = "fab fa-galactic-republic", label = "Trade Chips ($"..Config.SellCasinoChips.pricePer.." per chip)", }
 				-- end
 				Targets["Shop - ['"..k.."("..l..")']"] =
-					exports['qb-target']:AddCircleZone("Shop - ['"..k.."("..l..")']", vector3(b.x, b.y, b.z), 2.0, { name="Shop - ['"..k.."("..l..")']", debugPoly=Config.Debug, useZ=true, },
+					exports['qb-target']:AddCircleZone("Shop - ['"..k.."("..l..")']", vector3(b.x, b.y, b.z), 0.75, { name="Shop - ['"..k.."("..l..")']", debugPoly=Config.Debug, useZ=true, },
 					{ options = options, distance = 2.0 })
 			end
 		end

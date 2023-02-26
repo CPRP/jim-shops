@@ -43,7 +43,7 @@ Config = {
 			-- { name = "vodka", price = 15, amount = 50, },
 			{ name = "bandage", price = 100, amount = 50, },
 			{ name = "lighter", price = 2, amount = 50, },
-			{ name = "rolling_paper", price = 2, amount = 5000,  },
+			-- { name = "rolling_paper", price = 2, amount = 5000,  },
 			{ name = "sodiumbicarbonate", price = 8, amount = 200,  },
 			{ name = "notepad", price = 5, amount = 50,  },
 			{ name = "sodiumcarbonate", price = 8, amount = 50,  },

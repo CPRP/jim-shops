@@ -295,8 +295,8 @@ Config.Locations = {
 		},
 		["coords"] = {
 			vector4(46.52, -1749.55, 29.64, 50.82),
-			vector4(2747.76, 3472.9, 55.67, 243.88),
-			vector4(-421.65, 6135.97, 31.88, 232.98),
+			vector4(2506.84, 4097.4, 38.71, 59.45),
+			vector4(-406.75, 6149.72, 31.69, 217.97),
 		},
         ["products"] = Config.Products["hardware"],
         ["blipsprite"] = 402,

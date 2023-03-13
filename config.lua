@@ -48,6 +48,7 @@ Config = {
 			{ name = "notepad", price = 5, amount = 50,  },
 			{ name = "sodiumcarbonate", price = 8, amount = 50,  },
 			{ name = "clothingbag", price = 250, amount = 50,  },
+			-- { name = "handy_wallet", price = 25, amount = 150, },
 		},
 		-- ["bar"] = {
 		-- 	{ name = "water_bottle", price = 2, amount = 75, },

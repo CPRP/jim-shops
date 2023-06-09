@@ -149,6 +149,7 @@ Config = {
 			{ name = "skateboard", price = 1000, amount = 50, },
 			{ name = "megaphone", price = 200, amount = 50, },
 			{ name = "camera", price = 500, amount = 50, },
+			{ name = "pug-vr", price = 1000, amount = 50, },
 		},
 		["vending"] = {
 			{ name = "water_bottle", price = 4, amount = 25, },
